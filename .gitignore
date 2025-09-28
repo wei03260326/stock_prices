@@ -1,0 +1,29 @@
+﻿# secrets
+.env
+# 1) 到專案根目錄
+cd C:\Users\USER\PycharmProjects\stock_prices
+
+# 2) 初始化 git
+git init
+
+# 3) 建 .gitignore（避免上傳 .env / .venv / data）
+@"
+# secrets
+.env
+
+# virtual env
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# caches & logs
+__pycache__/
+*.pyc
+logs/
+
+# local data outputs
+data/
+app/data/
